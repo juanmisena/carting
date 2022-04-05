@@ -107,7 +107,7 @@ const btnAccion = e => {
     // console.log(e.target);
     // Accion de aumentar
     if(e.target.classList.contains('btn-info')) {
-        console.log(carrito[e.target.dataset.id]);
+        // console.log(carrito[e.target.dataset.id]);
         carrito[e.target.dataset.id];
         const producto = carrito[e.target.dataset.id];
         producto.cantidad++;
